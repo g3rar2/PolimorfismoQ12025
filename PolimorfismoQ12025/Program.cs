@@ -29,4 +29,5 @@ Departamento departamento = new Departamento();
 departamento.Vender(ubicacion, areaTerreno, precio);
 
 Terreno terreno = new Terreno();
-Terreno terreno1 = new Terreno();
+Terreno terreno1 = new Terreno(ubicacion,areaTerreno);
+terreno1.Vender();
